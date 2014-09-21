@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MiSitio", "..\..\Interfaz\MiSitio\", "{1F80DE27-F38B-4FC4-B5F1-B88B00D19840}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{A7A5C4F2-7E18-41CD-AA27-E796F16CB6B6}|CapaNegocio.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MiSitio"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Interfaz\MiSitio\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MiSitio\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MiSitio"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Interfaz\MiSitio\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MiSitio\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51005"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{A7A5C4F2-7E18-41CD-AA27-E796F16CB6B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F80DE27-F38B-4FC4-B5F1-B88B00D19840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F80DE27-F38B-4FC4-B5F1-B88B00D19840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F80DE27-F38B-4FC4-B5F1-B88B00D19840}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F80DE27-F38B-4FC4-B5F1-B88B00D19840}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A7A5C4F2-7E18-41CD-AA27-E796F16CB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A5C4F2-7E18-41CD-AA27-E796F16CB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A5C4F2-7E18-41CD-AA27-E796F16CB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A5C4F2-7E18-41CD-AA27-E796F16CB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
