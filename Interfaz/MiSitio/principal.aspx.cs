@@ -121,4 +121,10 @@ public partial class principal : System.Web.UI.Page
     {
 
     }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Session.RemoveAll();
+        Session.Abandon();
+        Response.Redirect("index.aspx");
+    }
 }

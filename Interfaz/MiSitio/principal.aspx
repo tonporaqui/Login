@@ -47,7 +47,8 @@
         Bienvenido
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/index.aspx">Cerrar sesion</asp:HyperLink>
+        <asp:Button ID="Button3" runat="server" onclick="Button3_Click" 
+            Text="Cerrar Sesion" />
         <br />
         <br />
         <br />
