@@ -103,5 +103,16 @@ namespace CapaNegocio
             DataSet ds = new DataSet();
             da.Fill(ds);
         }
+
+        public DataSet getID(int id)
+        {
+            SqlConnection co = new SqlConnection("Data Source=R580-PC;Initial Catalog=ControlUsuario;Integrated Security=True;Pooling=False");
+            string query = "select * from solicitud where id = '" + id + "'";
+            SqlDataAdapter da = new SqlDataAdapter(query,co);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds;
+        }
+
     }
 }
